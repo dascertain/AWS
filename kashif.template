@@ -1,0 +1,15 @@
+"KeyName" : {
+  "Description" : "Kashif",
+  "Type" : "String",
+  "Default" : "ditc",
+  "MinLength": "1",
+  "MaxLength": "64",
+  "AllowedPattern" : "[-_ a-zA-Z0-9]*",
+  "ConstraintDescription" : "Can contain only alphanumeric characters, spaces, dashes and underscores."
+},
+"InstanceType" : {
+  "Description" : "t2.micro",
+  "Type" : "String",
+  "Default" : "t2.micro",
+  "ConstraintDescription" : "Mvalid EC2 instance type."
+}
